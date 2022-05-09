@@ -1,4 +1,4 @@
 FROM mysql:8.0
 
 
-COPY low-memory-my.cnf /etc/mysql/conf.d/low.cnf
+COPY low-memory-mysql.cnf /etc/mysql/conf.d/low.cnf
