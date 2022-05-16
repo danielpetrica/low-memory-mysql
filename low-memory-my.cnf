@@ -59,4 +59,4 @@ performance_schema = off
 #https://stackoverflow.com/questions/15701636/how-to-enable-explicit-defaults-for-timestamp
 explicit_defaults_for_timestamp=true
 #https://stackoverflow.com/questions/35580488/unable-to-connect-to-dockerized-mysql-db-remotely
-bind-address = 0.0.0.0
+bind-address = *
